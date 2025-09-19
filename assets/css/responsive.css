@@ -1,0 +1,143 @@
+
+@media (max-width: 1024px){
+.banner_wrap {
+    padding-left: 0;
+    padding: 0 0.9375rem;
+}
+
+.banner_section {
+    height: 40.875rem;
+}
+
+.stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .cards-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+
+
+@media (max-width: 991px) {
+    .menu-list {
+        width: 0;
+        position: fixed;
+        top: 0;
+        left: 0;
+        overscroll-behavior-y: contain;
+        scrollbar-width: none;
+        background: #141719 none repeat scroll 0 0;
+        transition: transform 0.45s ease-in-out, opacity 0.45s ease-in-out;
+        height: 100vh;
+        overflow-x: hidden;
+        transition: width 0.3s ease;
+        z-index: 9999;
+        padding-top: 60px;
+        max-width: 300px;
+    }
+
+    .menu-list.open {
+        width: 100%;
+        transition: width 0.3s ease;
+    }
+
+
+    .menu-list ul {
+        flex-direction: column;
+        padding-left: 20px;
+        gap: 20px;
+        align-items: flex-start;
+    }
+
+    .menu-icon span {
+        font-size: 26px;
+        font-weight: 400;
+        color: #fff;
+    }
+
+    .right-col {
+        max-width: 100%;
+    }
+
+
+    span.menu-close {
+        padding: 6px 6px;
+        display: block;
+        border-radius: 6px;
+        width: 45px;
+        height: 45px;
+        text-align: center;
+        box-shadow: 0 0 25px rgb(0 0 0 / .1);
+        line-height: 32px;
+        background: #eb592a;
+        color: #fff;
+        position: absolute;
+        right: 7px;
+        top: 5px;
+        font-size: 18px;
+    }
+
+
+    .menu-icon {
+        display: block;
+    }
+
+    .banner_content h1 {
+        font-size: 3rem;
+    }
+}
+
+
+@media (max-width: 767px) {
+    .banner_section {
+        height: 32.875rem;
+    }
+    .stats-grid {
+        grid-template-columns: 1fr;
+      }
+      .cards-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .figma_heading {
+        font-size: 2.5rem;
+    }
+
+    .second_heading {
+        font-size: 2rem;
+    }
+
+}
+
+
+@media (max-width: 575px) {
+    .banner_content h1 {
+        font-size: 2.5rem;
+    }
+
+    .banner_content p {
+        font-size: 1rem;
+    }
+
+}
+
+@media (max-width: 425px) {
+    .banner_content h1 {
+        font-size: 2.1rem;
+    }
+
+    .banner_content span {
+        padding: 5px 10px;
+        font-size: 13px;
+    }
+
+    .figma_heading {
+        font-size: 1.5rem;
+    }
+
+    .second_heading {
+        font-size: 1.5rem;
+    }
+
+}
