@@ -39,7 +39,7 @@ body {
 
 
 .section-bg {
-  background-color: #0b0e13;
+  background-color: #141719;
 }
 
 .second-section-bg {
@@ -287,12 +287,12 @@ span.menu-close {
 }
 
 .banner_content span {
-    color: #fff;
-    display: inline-block;
-    padding: 5px 10px;
-    margin-bottom: 10px;
-    border-radius: 30px;
-    background: radial-gradient(circle at center, #d37555 0%, #f74e17 100%);
+  color: #fff;
+  display: inline-block;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+  border-radius: 30px;
+  background: radial-gradient(circle at center, #ef7f59 0%, #ef450e 100%);
 }
 
 
@@ -427,7 +427,6 @@ span.menu-close {
 /* Team average section start */
 
 .featured-highlights {
-    background-color: #eb592a;
     margin-top: 16rem;
 }
 
@@ -439,16 +438,16 @@ span.menu-close {
 
 .highlights-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
   gap: 20px;
 }
 
 .highlight-card {
-    background: #ffffff;
-    /* border-radius: 16px; */
-    padding: 0 0 25px;
-    transition: transform 0.3s ease;
-    /* border: 1px solid #ffffff5c; */
+  background: radial-gradient(circle at center, #ef7f59 0%, #eb592a 100%);
+  /* border-radius: 16px; */
+  /* padding: 0 0 25px; */
+  transition: transform 0.5s ease;
+  /* border: 1px solid #ffffff5c; */
 }
 
 .feature_highlight_img {
@@ -460,19 +459,155 @@ span.menu-close {
     /* border-radius: 10px; */
 }
 
-.highlight-card h3 {
+.highlight-card-content h3 {
     font-size: 1.5rem;
     margin-bottom: 20px;
-    color: #000000;
+    color: #fff;
     margin-top: 30px;
     text-align: center;
 }
 
-.highlight-card p {
-    font-size: 1rem;
-    color: #000000;
-    margin-bottom: 0;
-    text-align: center;
+.highlight-card-content p {
+  font-size: 1rem;
+  color: #fff;
+  margin-bottom: 0;
+  text-align: center;
+  letter-spacing: 1px;
+  line-height: 1.4;
+  padding: 0 10px 10px;
+}
+
+.highlight-card:hover {
+  transform: translateY(-5px);
 }
 
 /* Team average section end */
+
+/* newslatter css start */
+
+.newslattter input {
+  width: 70%;
+  background: transparent;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #fff;
+  padding: 0.625rem;
+  color: #fff;
+  }
+  
+  .newslattter input::placeholder {
+  color: #fff;
+  font-size: 1rem;
+  }
+  
+  /* Newsletter validation styles */
+  .newsletter-input-group {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  }
+  
+  .newsletter-email.is-invalid {
+  box-shadow: 0 1px 0 0 #ffffff;
+  }
+  
+  body .newsletter-feedback {
+      display: none;
+      font-size: 0.875rem;
+      margin-top: 0.25rem;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      z-index: 10;
+      color: red !important;
+      background: #fdfdfd;
+      padding: 10px;
+      border-radius: 6px;
+      text-align: center;
+      max-width: 460px;
+      font-weight: 500;
+  }
+  
+  .newsletter-form {
+  position: relative;
+  }
+  
+  .newsletter-form .newsletter-input-group {
+  position: relative;
+  }
+ 
+.newslattter {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-color: #000000bf;
+    background-blend-mode: multiply;
+}
+  
+  .right_column h4 {
+  color: #fff;
+  font-size: 2rem;
+  margin-bottom: 10px;
+  line-height: 27px;
+  }
+  
+  .right_column p {
+  color: #fff;
+  font-size: 1rem;
+  line-height: 25px;
+  letter-spacing: 1px;
+  margin-bottom: 0;
+  }
+  
+  .newslattter_button {
+  display: inline-block;
+  outline: none;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px 20px;
+  color: #fff;
+  background: transparent;
+  border: 1px solid #fff;
+  transition: color .2s linear, background .3s linear, opacity .2s linear;
+  margin-left: 10px;
+  }
+  
+  .newslattter_button:hover {
+  background-color: #af884a;
+  border: 1px solid #af884a;
+  }
+  
+  /* newslatter css end */
+
+
+  /* blog section css start */
+  .blog-innercard {
+    text-decoration: none;
+    color: inherit;
+    }
+
+    .blog-innercard .card-body {
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+    }
+
+    .blog-innercard :hover .card-body {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    background: radial-gradient(circle at center, #ef7f59 0%, #eb592a 100%);
+    }
+
+    .blog-innercard .card-title {
+      transition: color 0.3s ease;
+      margin: 0;
+      line-height: 1.4;
+  }
+
+    .blog-innercard:hover .card-title {
+    color: white;
+    }
+
+    .blog-section .row {
+    row-gap: 15px;
+    }
+    /* blog section css end */
