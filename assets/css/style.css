@@ -1173,10 +1173,9 @@ body .newsletter-feedback {
 
 .gt-contact-bg {
   padding: 23px;
-  background-color:#fff;
-  height: 100%;
+  background-color: #fff;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-}
+} 
 
 .gt-comment-form-wrap h4,
 .gt-contact-content h3 {
