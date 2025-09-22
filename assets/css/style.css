@@ -957,3 +957,58 @@ body .newsletter-feedback {
 }
 
 /* big-game-page section css end */
+
+
+/* privacy policy page css strat */
+.last-update {
+  padding: 40px 0;
+  }
+  
+  
+  .last-update-content:not(:last-child) {
+  margin-bottom: 30px;
+  }
+  .last-update-content p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #fff;
+  margin-bottom:0;
+  }
+  .last-update-content h4 {
+  color: #fff;
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: .5rem;
+  }
+  .last-update-content ul li {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #fff;
+  position: relative;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  }
+  .last-update-content ul li::before {
+      content: '';
+      width: 8px;
+      height: 8px;
+      background-color: #eb7c2a;
+      position: absolute;
+      left: 0;
+      top: 10px;
+      border-radius: 50%;
+  }
+  
+  .last-update-content-wrap {
+      background: #141719;
+      padding: 30px;
+      border-radius: 12px;
+      margin-top: -120px;
+  }
+  
+  .last-update-content p a {
+      color: #f17d25;
+  }
+/* privacy policy page css end */

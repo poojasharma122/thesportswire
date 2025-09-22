@@ -114,6 +114,22 @@
     .game_card_img {
         height: 350px;
     }
+
+    .custom-hotel-flex {
+        flex-direction: column;
+    }
+
+    .custom-hotel-text-side {
+        padding: 30px 15px;
+    }
+
+    .custom-hotel-img-side, .custom-hotel-text-side {
+        width: 100%;
+    }
+
+    .custom-hotel-img-side, .custom-hotel-text-side {
+        width: 100%;
+    }
 }
 
 
