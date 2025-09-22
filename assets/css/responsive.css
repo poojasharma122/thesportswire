@@ -115,19 +115,19 @@
         height: 350px;
     }
 
-    .custom-hotel-flex {
+    .custom-game-flex {
         flex-direction: column;
     }
 
-    .custom-hotel-text-side {
+    .custom-game-text-side {
         padding: 30px 15px;
     }
 
-    .custom-hotel-img-side, .custom-hotel-text-side {
+    .custom-game-img-side, .custom-game-text-side {
         width: 100%;
     }
 
-    .custom-hotel-img-side, .custom-hotel-text-side {
+    .custom-game-img-side, .custom-game-text-side {
         width: 100%;
     }
 }
@@ -151,6 +151,32 @@
     .second_heading {
         font-size: 2rem;
     }
+    .blog-detail-section .blog-title {
+        font-size: 20px;
+      }
+      .blog-detail-section {
+        padding: 40px 0;
+    }
+      .blog-detail-section  .blog-meta {
+        flex-direction: column;
+        gap: 15px;
+      }
+      
+      .blog-detail-section .blog-content {
+        padding: 25px;
+      }
+      
+      .blog-detail-section .section-title {
+        font-size: 1.8rem;
+      }
+      
+      .blog-detail-section .blog-featured-image img {
+        height: 250px;
+      }
+      
+      .blog-detail-section  .takeaway-item {
+        padding: 15px;
+      }
 
 }
 

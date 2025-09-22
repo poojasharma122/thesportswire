@@ -891,12 +891,12 @@ body .newsletter-feedback {
   margin-bottom: 15px;
 }
 
-.custom-hotel-section {
+.team-custom-section {
   padding-top: 40px;
   padding-bottom: 40px;
 }
 
-.custom-hotel-flex {
+.custom-game-flex {
   display: flex;
   flex-wrap: wrap;
   background: #fff;
@@ -905,7 +905,7 @@ body .newsletter-feedback {
   box-shadow: 0 2px 12px rgba(0, 0, 0, 0.07);
 }
 
-.custom-hotel-img-side {
+.custom-game-img-side {
   width: 50%;
   min-height: 370px;
   background-image: url('../images/home_banner.jpg');
@@ -914,7 +914,7 @@ body .newsletter-feedback {
   background-repeat: no-repeat;
 }
 
-.custom-hotel-text-side {
+.custom-game-text-side {
   width: 50%;
   padding: 40px 30px 30px 30px;
   display: flex;
@@ -922,14 +922,14 @@ body .newsletter-feedback {
   justify-content: center;
 }
 
-.custom-hotel-text-side h2 {
+.custom-game-text-side h2 {
   font-size: 32px;
   color: #000;
   font-weight: 600;
   margin-bottom: 20px;
 }
 
-.custom-hotel-text-side p {
+.custom-game-text-side p {
   font-size: 18px;
   color: #222;
   margin-bottom: 12px;
@@ -1012,3 +1012,206 @@ body .newsletter-feedback {
       color: #f17d25;
   }
 /* privacy policy page css end */
+
+/* inner blog bage css start */
+.blog-detail-section {
+  padding: 80px 0;
+}
+
+.blog-detail-section .blog-title {
+  font-size: 35px;
+  font-weight: 700;
+  color: #eb592a;;
+  margin-bottom: 20px;
+  line-height: 1.2;
+}
+
+.blog-detail-section .blog-meta {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+.blog-detail-section .blog-meta span {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #6c757d;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+
+.blog-detail-section .blog-featured-image {
+  position: relative;
+  overflow: hidden;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease;
+}
+
+.blog-detail-section .blog-featured-image:hover {
+  transform: translateY(-5px);
+}
+
+.blog-detail-section .blog-featured-image img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+  object-position: bottom;
+}
+
+.blog-detail-section .blog-featured-image:hover img {
+  transform: scale(1.05);
+}
+
+.blog-detail-section .blog-content {
+  background: #fff;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+  margin-top: 30px;
+}
+
+.blog-detail-section .blog-intro .lead {
+  font-size:18px;
+  color: #000;
+  line-height: 1.6;
+  font-weight: 400;
+  border-left: 4px solid #eb7c2a;
+  padding-left: 12px;
+  margin-bottom: 0;
+}
+.blog-detail-section  .blog-section {
+  margin: 22px 0 0;
+}
+
+.blog-detail-section .section-title {
+  font-size: 2.2rem;
+  font-weight: 600;
+  color: var(--secondary-color);
+  line-height: 26px;
+  margin-bottom: 17px;
+}
+.blog-detail-section .blog-section p {
+  font-size:16px;
+  line-height: 1.7;
+  color: #000;
+  margin-bottom: 0;
+}
+
+.blog-detail-section .key-takeaways {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.blog-detail-section .takeaway-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 20px;
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  border-radius: 10px;
+  border-left: 4px solid #eb7c2a;
+  transition: all 0.3s ease;
+}
+
+.blog-detail-section .takeaway-item:hover {
+  transform: translateX(10px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.blog-detail-section .takeaway-item i {
+  font-size: 1.5rem;
+  color: #eb7c2a;
+  width: 30px;
+  text-align: center;
+}
+
+.blog-detail-section .takeaway-item span {
+  font-size: 1.1rem;
+  color: #000;
+  font-weight: 500;
+}
+.blog-detail-section .takeaway-item strong {
+    color: #eb7c2a;
+}
+
+
+/* inner blog bage css end */
+
+
+/* contact us page css start */
+
+.gt-comment-form-wrap {
+  padding: 23px;
+  background-color: #141719;
+  height: 100%;
+}
+
+.gt-contact-us-wrapper .gt-comment-form-wrap .form-clt input,
+.gt-contact-us-wrapper .gt-comment-form-wrap .form-clt select,
+.gt-contact-us-wrapper .gt-comment-form-wrap .form-clt textarea {
+  width: 100%;
+  outline: none;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  background: rgba(255, 255, 255, 0.05);
+  padding: 16px;
+  color: #fff;
+}
+
+
+
+.gt-contact-us {
+  padding: 40px 0;
+}
+
+.gt-contact-bg {
+  padding: 23px;
+  background-color: #141719;
+  height: 100%;
+}
+
+.gt-comment-form-wrap h4,
+.gt-contact-content h3 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 150%;
+  color: #fff;
+}
+
+.gt-comment-form-wrap p,
+.gt-contact-content p {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 28px;
+  color: #fff;
+}
+
+
+.gt-comment-form-wrap p a{
+  color: #e2653b;
+}
+
+
+.button-cst {
+  color: #fff;
+  display: inline-block;
+  padding: 12px 30px;
+  margin-bottom: 10px;
+  border-radius: 15px 0;
+  background: radial-gradient(circle at center, #ef7f59 0%, #ef450e 100%);
+  border: 1px solid #ef450e;
+}
+
+.gt-contact-us-wrapper .gt-comment-form-wrap .form-clt input::placeholder,
+.gt-contact-us-wrapper .gt-comment-form-wrap .form-clt select::placeholder,
+.gt-contact-us-wrapper .gt-comment-form-wrap .form-clt textarea::placeholder {
+color: #fff;
+opacity: 1; /* Firefox ke liye zaroori hai */
+}
+
+/* contact us page css end */
