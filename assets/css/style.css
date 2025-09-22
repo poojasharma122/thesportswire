@@ -665,9 +665,9 @@ body .newsletter-feedback {
   transition: all 0.3s linear;
 }
 
-  /* .footer-links ul li a:hover {
+  .footer-links ul li a:hover {
     color: #eb592a;
-  } */
+  }
 
 .social-link ul li a svg {
   background-color: #eb592a;
@@ -829,7 +829,7 @@ body .newsletter-feedback {
   background-repeat: no-repeat;
   background-position: center;
   width: 100%;
-  height: 272px;
+  height: 100%;
 }
 
 .games_text {
@@ -856,6 +856,7 @@ body .newsletter-feedback {
 
 .game_card_img_wrap {
   width: 40%;
+  height: 100%;
 }
 
 .games_text p {
@@ -873,3 +874,86 @@ body .newsletter-feedback {
 }
 
 /* game section css end */
+
+
+/* big-game-page section css start */
+
+.top-hotel-heading {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.top-hotel-heading h2 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #000;
+  line-height: 100%;
+  margin-bottom: 15px;
+}
+
+.custom-hotel-section {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.custom-hotel-flex {
+  display: flex;
+  flex-wrap: wrap;
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.07);
+}
+
+.custom-hotel-img-side {
+  width: 50%;
+  min-height: 370px;
+  background-image: url('../images/home_banner.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.custom-hotel-text-side {
+  width: 50%;
+  padding: 40px 30px 30px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.custom-hotel-text-side h2 {
+  font-size: 32px;
+  color: #000;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.custom-hotel-text-side p {
+  font-size: 18px;
+  color: #222;
+  margin-bottom: 12px;
+  line-height: 1.5;
+}
+
+.custom-hotel-btn {
+  margin-top: 18px;
+}
+
+.custom-hotel-btn a {
+  background: #af8c3e;
+  color: #fff;
+  padding: 10px 28px;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 16px;
+  transition: background 0.2s;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.custom-hotel-btn a:hover {
+  background: #8c6c2e;
+}
+
+/* big-game-page section css end */

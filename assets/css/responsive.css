@@ -98,7 +98,22 @@
         margin-top: 2rem;
     }
 
+    .game_card {
+        flex-direction: column;
+    }
+
+    .games_text {
+        width: 100%;
+    }
+
+    .game_card_img_wrap {
+        width: 100%;
+    }
     
+
+    .game_card_img {
+        height: 350px;
+    }
 }
 
 
