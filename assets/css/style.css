@@ -429,7 +429,7 @@ span.menu-close {
 /* Team average section start */
 
 .featured-highlights {
-  margin-top: 16rem;
+  margin-top: 13rem;
 }
 
 .section_heading {
@@ -1374,3 +1374,7 @@ opacity: 1; /* Firefox ke liye zaroori hai */
 }
 
 /* about page css end */
+
+.trending_section {
+  padding: 40px 0;
+}
