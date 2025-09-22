@@ -791,3 +791,51 @@ span.menu-close {
   align-items: center;
   padding-left: 4rem;
 }
+
+/* game section css start */
+
+.game_card {
+  /* background-color: #000; */
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.game_card_img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 250px;
+}
+
+.games_text {
+  width: 60%;
+  background: radial-gradient(circle at center, #ef7f59a8 0%, #eb592a 100%);
+  padding: 20px;
+  color: #fff;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
+.games_text h3 {
+  background: #eb592a;
+  padding: 20px 15px;
+  border-radius: 20px 0;
+  font-size: 24px;
+  text-align: center;
+  max-width: 200px;
+  margin: 0 auto;
+}
+
+.game_card_img_wrap {
+  width: 40%;
+}
+
+/* game section css end */

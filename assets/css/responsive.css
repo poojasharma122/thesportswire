@@ -15,6 +15,11 @@
   .cards-grid {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .stats-section {
+    background: #0000009c;
+    height: 100%;
+}
 }
 
 
