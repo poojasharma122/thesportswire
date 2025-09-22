@@ -1120,7 +1120,7 @@ body .newsletter-feedback {
 }
 
 .blog-detail-section .takeaway-item:hover {
-  transform: translateX(10px);
+  transform: translateY(-5px);
   box-shadow: 0 5px 15px rgba(0,0,0,0.1);
 }
 
@@ -1217,3 +1217,156 @@ opacity: 1; /* Firefox ke liye zaroori hai */
 }
 
 /* contact us page css end */
+
+
+/* about page css start */
+
+.our-mission-sec {
+  background-color: #141719;
+}
+
+
+.our-mission-content-right h2 {
+  font-size: 2rem;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.our-mission-content-right p {
+  font-size: 1rem;
+  color: #fff;
+  margin-bottom: 0;
+}
+
+.our-mission-content-left {
+  padding: 0 30px;
+}
+
+.our-mission-content-left img {
+  height: 360px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.our-mission-content-right {
+  padding: 30px;
+}
+
+.coverage-card {
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s, box-shadow 0.3s;
+  border-top: 4px solid #1a2a57;
+  height: 100%;
+}
+
+.what-we-cover-sec {
+  background-color: #f5f7fa;
+}
+
+.coverage-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.coverage-card h3 {
+  color: #1a2a57;
+  margin-bottom: 15px;
+  font-size: 1.4rem;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.coverage-card h3 i {
+  color: #e75e30;
+  font-size: 30px;
+}
+
+.coverage-card ul {
+  list-style-type: none;
+}
+
+.coverage-card li {
+  margin-bottom: 10px;
+  padding-left: 25px;
+  position: relative;
+}
+
+.coverage-card li::before {
+  content: "•";
+  color: #e56236;
+  font-size: 1.5rem;
+  position: absolute;
+  left: 0;
+  top: -5px;
+}
+
+.what-we-cover-sec .row .col-lg-4 {
+  margin-bottom: 30px;
+}
+
+.coverage-card {
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s, box-shadow 0.3s;
+  border-top: 4px solid #e56236 ;
+  height: 100%;
+}
+
+.what-we-cover-sec {
+  background-color: #f5f7fa;
+}
+
+.coverage-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.coverage-card h3 {
+  color: #1a2a57;
+  margin-bottom: 15px;
+  font-size: 1.4rem;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.coverage-card h3 i {
+  color: #e75e30;
+  font-size: 30px;
+}
+
+.coverage-card ul {
+  list-style-type: none;
+}
+
+.coverage-card li {
+  margin-bottom: 10px;
+  padding-left: 25px;
+  position: relative;
+}
+
+.coverage-card li::before {
+  content: "•";
+  color: #e56236;
+  font-size: 1.5rem;
+  position: absolute;
+  left: 0;
+  top: -5px;
+}
+
+.what-we-cover-content {
+  text-align: center;
+  margin-bottom: 40px;  
+}
+
+.what-we-cover-sec .row .col-lg-4 {
+  margin-bottom: 30px;
+}
+
+/* about page css end */
