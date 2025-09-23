@@ -1171,16 +1171,18 @@ body .newsletter-feedback {
   background-color: #fff;
 }
 
-.gt-contact-us-wrapper .gt-comment-form-wrap .form-clt input,
-.gt-contact-us-wrapper .gt-comment-form-wrap .form-clt select,
-.gt-contact-us-wrapper .gt-comment-form-wrap .form-clt textarea {
+.gt-contact-us-wrapper .gt-comment-form-wrap .form-clt input, .gt-contact-us-wrapper .gt-comment-form-wrap .form-clt select, .gt-contact-us-wrapper .gt-comment-form-wrap .form-clt textarea {
   width: 100%;
   outline: none;
-  border: 1px solid #000;
+  border: 1px solid #00000030;
   background: rgba(255, 255, 255, 0.05);
   padding: 16px;
   border-radius: 10px;
-  color: #000;
+  color: #000000;
+}
+
+.gt-contact-us-wrapper .gt-comment-form-wrap .form-clt input::placeholder, .gt-contact-us-wrapper .gt-comment-form-wrap .form-clt select, .gt-contact-us-wrapper .gt-comment-form-wrap .form-clt textarea::placeholder {
+  color: #0000006e;
 }
 
 
