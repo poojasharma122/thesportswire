@@ -438,7 +438,7 @@ span.menu-close {
 
 .highlights-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(430px, 100%), 1fr));
   gap: 20px;
 }
 
@@ -448,6 +448,7 @@ span.menu-close {
   /* padding: 0 0 25px; */
   transition: transform 0.5s ease;
   /* border: 1px solid #ffffff5c; */
+  border-radius: 35px 0 35px 0;
 }
 
 .highlight-card-content {
@@ -574,8 +575,9 @@ body .newsletter-feedback {
   color: #fff;
   background: transparent;
   border: 1px solid #fff;
-  transition: color .2s linear, background .3s linear, opacity .2s linear;
+  transition: all 0.2s linear;
   margin-left: 10px;
+  border-radius: 15px 0 15px 0;
 }
 
 .newslattter_button:hover {
