@@ -230,6 +230,15 @@
         font-size: 26px;
     }
 
+    .our-mission-content-right h2 {
+        font-size: 1.8rem;
+    }
+
+    .our-mission-sec {
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+      }
+
 }
 
 @media (max-width: 425px) {
@@ -357,6 +366,10 @@
 
     .last-update-content h4 {
         font-size: 22px;
+    }
+
+    .our-mission-content-right h2 {
+        font-size: 1.5rem;
     }
 
 }
