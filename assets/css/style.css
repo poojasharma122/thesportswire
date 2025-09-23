@@ -914,7 +914,14 @@ body .newsletter-feedback {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  transition: all 0.3s ease-in-out;
+  object-fit: cover;
 }
+
+.custom-game-img-side:hover {
+  transform: scale(1.01);
+}
+
 
 .custom-game-text-side {
   width: 50%;
@@ -922,6 +929,21 @@ body .newsletter-feedback {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.custom-game-text-side ul li {
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 12px;
+}
+
+.custom-game-text-side ul li::before {
+  color: #eb592a;
+  position: absolute;
+  content: '.';
+  font-size: 60px;
+  top: -50px;
+  left: 0px;
 }
 
 .custom-game-text-side h2 {
@@ -1000,7 +1022,7 @@ body .newsletter-feedback {
   content: '';
   width: 8px;
   height: 8px;
-  background-color: #eb7c2a;
+  background-color: #eb592a;
   position: absolute;
   left: 0;
   top: 10px;
@@ -1015,7 +1037,11 @@ body .newsletter-feedback {
 }
 
 .last-update-content p a {
-  color: #f17d25;
+  color: #eb592a;
+}
+
+.last-update-content p a:hover {
+  color: #fff;
 }
 
 /* privacy policy page css end */
@@ -1393,6 +1419,7 @@ body .newsletter-feedback {
   margin-bottom: 10px;
   font-weight: 600;
   color: #eb592a;
+  text-align: center;
 }
 
 .team_games_heading.text-center p {
@@ -1401,6 +1428,7 @@ body .newsletter-feedback {
   font-weight: 500;
   letter-spacing: 1px;
   padding-bottom: 10px;
+  text-align: center;
 }
 
 
@@ -1446,8 +1474,8 @@ ul.list-unstyled li a:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid #d37555;
-  color: #d37555;
+  border: 1px solid #eb592a;
+  color: #eb592a;
   transition: all 0.3s;
 }
 
@@ -1483,7 +1511,7 @@ ul.list-unstyled li a:hover {
 }
 
 .bottom-line p a {
-  color: #e56236;
+  color: #eb592a;
 
 }
 
