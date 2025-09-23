@@ -1244,6 +1244,13 @@ body .newsletter-feedback {
   border-radius: 15px 0;
   background: radial-gradient(circle at center, #ef7f59 0%, #ef450e 100%);
   border: 1px solid #ef450e;
+  transition: all 0.3s ease;
+}
+
+.button-cst:hover {
+  background: transparent;
+  border: 1px solid #eb592a;
+  color: #eb592a;
 }
 
 .gt-contact-us-wrapper .gt-comment-form-wrap .form-clt input::placeholder,
@@ -1419,7 +1426,6 @@ body .newsletter-feedback {
   margin-bottom: 10px;
   font-weight: 600;
   color: #eb592a;
-  text-align: center;
 }
 
 .team_games_heading.text-center p {
@@ -1428,7 +1434,6 @@ body .newsletter-feedback {
   font-weight: 500;
   letter-spacing: 1px;
   padding-bottom: 10px;
-  text-align: center;
 }
 
 
@@ -1530,4 +1535,12 @@ ul.list-unstyled li a:hover {
   color: #fff;
   font-size: 1rem;
   line-height: 28px;
+}
+
+.right_column p a {
+  color: #eb592a;
+}
+
+.right_column p a:hover {
+  color: #fff;
 }

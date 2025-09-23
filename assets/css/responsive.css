@@ -190,6 +190,10 @@
         margin-top: 3rem;
     }
 
+    .banner_section_second {
+        height: 28.875rem;
+    }
+
 }
 
 
@@ -283,6 +287,41 @@
 
     .highlight-card-content p {
         line-height: 24px;
+    }
+
+    .gt-comment-form-wrap h4, .gt-contact-content h3 {
+        font-size: 22px;
+    }
+
+    .gt-comment-form-wrap p, .gt-contact-content p {
+        font-weight: 500;
+        line-height: 25px;
+    }
+
+    .bottom-ft {
+        flex-wrap: wrap;
+    }
+
+    .footer_SSl {
+        padding-top: 16px;
+        max-width: 120px;
+        margin: 0 auto;
+    }
+
+    .banner_section_second {
+        height: 24.875rem;
+    }
+
+    /* .newslattter {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 26rem;
+    } */
+
+    body .newsletter-feedback {
+        padding: 5px;
     }
 
 }
