@@ -45,9 +45,7 @@ body {
   background-color: #1c1d20;
 }
 
-.headinf-color {
-  color: #45f882;
-}
+
 
 .main_content {
   overflow: hidden;
@@ -1070,7 +1068,7 @@ body .newsletter-feedback {
   height: 500px;
   object-fit: cover;
   transition: transform 0.3s ease;
-  object-position: bottom;
+  /* object-position: bottom; */
 }
 
 .blog-detail-section .blog-featured-image:hover img {

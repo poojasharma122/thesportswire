@@ -178,6 +178,18 @@
         padding: 15px;
       }
 
+      .pt-8{
+        padding-top: 2.5rem;
+    }
+
+    .pb-8{
+        padding-bottom: 2.5rem;
+    }
+
+    .featured-highlights {
+        margin-top: 3rem;
+    }
+
 }
 
 
@@ -188,6 +200,10 @@
 
     .banner_content p {
         font-size: 1rem;
+    }
+
+    .trending_content h2 {
+        font-size: 2rem;
     }
 
 }
@@ -217,6 +233,56 @@
     .newslattter input {
         width: 100%;
         margin-bottom: 0px;
+    }
+
+    .blog-detail-section .section-title {
+        font-size: 1.5rem;
+    }
+
+    .blog-detail-section .blog-intro .lead {
+        font-size: 16px;
+    }
+
+    .blog-detail-section .takeaway-item span {
+        font-size: 1rem;
+    }
+
+    .footer-content h2 {
+        color: #fff;
+        font-size: 1.5rem;
+    }
+
+    .banner_section {
+        height: 30.875rem;
+    }
+
+    .trending_content h2 {
+        font-size: 1.5rem;
+    }
+
+    .para {
+        font-size: 1rem;
+    }
+
+    .card-content h3 {
+        font-size: 18px;
+    }
+
+
+    .card-content {
+        left: 40px;
+    }
+
+    .highlights-grid {
+        grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
+    }
+
+    .highlight-card-content h3 {
+        font-size: 1.3rem;
+    }
+
+    .highlight-card-content p {
+        line-height: 24px;
     }
 
 }
