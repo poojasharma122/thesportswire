@@ -1378,3 +1378,18 @@ opacity: 1; /* Firefox ke liye zaroori hai */
 .trending_section {
   padding: 40px 0;
 }
+
+.trending_content h2 {
+  font-size: 2.5rem;
+  line-height: 1.4;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.team_games_heading.text-center p {
+  font-size: 18px;
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 1px;
+  padding-bottom: 10px;
+}
