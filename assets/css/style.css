@@ -703,7 +703,7 @@ body .newsletter-feedback {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 20px;
+  padding: 20px 0;
   margin-top: 10px;
   text-align: center;
   border-top: 1px solid #ffffffb0;
