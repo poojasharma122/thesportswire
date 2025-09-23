@@ -585,6 +585,14 @@ body .newsletter-feedback {
   border: 1px solid #eb592a;
 }
 
+.gt-contact-us-wrapper .gt-comment-form-wrap .form-clt input::placeholder, .gt-contact-us-wrapper .gt-comment-form-wrap .form-clt textarea::placeholder {
+  color:#0000006e;
+}
+
+.gt-contact-us-wrapper .gt-comment-form-wrap .form-clt input[type="file"] {
+  color:#0000006e;
+}
+
 /* newslatter css end */
 
 
