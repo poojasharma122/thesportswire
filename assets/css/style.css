@@ -1226,7 +1226,7 @@ body .newsletter-feedback {
 }
 
 .gt-contact-us-wrapper .gt-comment-form-wrap .form-clt input::placeholder, .gt-contact-us-wrapper .gt-comment-form-wrap .form-clt select, .gt-contact-us-wrapper .gt-comment-form-wrap .form-clt textarea::placeholder {
-  color: #0000006e;
+  color: #000;
 }
 
 
@@ -1589,13 +1589,13 @@ ul.list-unstyled li a:hover {
 
 
 .gt-contact-us-wrapper .gt-comment-form-wrap .form-clt input::placeholder, .gt-contact-us-wrapper .gt-comment-form-wrap .form-clt textarea::placeholder {
-  color:#0000006e;
+  color:#000;
 }
 
 
 
 .gt-contact-us-wrapper .gt-comment-form-wrap .form-clt input[type="file"] {
-  color:#0000006e;
+  color: #000 !important;
 }
 
 .about-content p {
