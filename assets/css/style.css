@@ -866,6 +866,8 @@ body .newsletter-feedback {
   align-items: center;
   height: 100%;
   width: 100%;
+  overflow: hidden;
+  border-radius: 35px 0 35px 0;
 }
 
 .game_card_img {
