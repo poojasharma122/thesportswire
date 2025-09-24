@@ -491,7 +491,7 @@ span.menu-close {
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  height: 350px;
+  height: 280px;
   /* border-radius: 10px; */
 }
 
@@ -640,6 +640,7 @@ body .newsletter-feedback {
 .blog-innercard :hover .card-body {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
   background: radial-gradient(circle at center, #ef7f59 0%, #eb592a 100%);
+  color: white;
 }
 
 .blog-innercard .card-title {
@@ -648,9 +649,9 @@ body .newsletter-feedback {
   line-height: 1.4;
 }
 
-.blog-innercard:hover .card-title {
+/* .blog-innercard:hover .card-title {
   color: white;
-}
+} */
 
 .blog-section .row {
   row-gap: 15px;
@@ -1585,3 +1586,22 @@ ul.list-unstyled li a:hover {
 }
 
 
+.gt-contact-us-wrapper .gt-comment-form-wrap .form-clt input::placeholder, .gt-contact-us-wrapper .gt-comment-form-wrap .form-clt textarea::placeholder {
+  color:#0000006e;
+}
+
+
+
+.gt-contact-us-wrapper .gt-comment-form-wrap .form-clt input[type="file"] {
+  color:#0000006e;
+}
+
+.about-content p {
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 1.4;
+  margin: 0;
+  padding: 0;
+  letter-spacing: 1px;
+  color: #000;
+}
